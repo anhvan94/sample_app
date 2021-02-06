@@ -2,6 +2,9 @@ Rails.application.configure do
   #config.hosts.clear
   config.hosts << "thamtutamvu.com"
 config.hosts << /application\.local\Z/
+#config.action_controller.asset_host = proc {|path, request|
+#  "http://thamtutamvu.com" << request.host
+#}
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
