@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock "3.5.0"
+lock "3.15.0"
 
 set :application, "sample_app"
 set :repo_url, "https://github.com/anhvan94/sample_app.git"
